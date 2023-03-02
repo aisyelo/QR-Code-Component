@@ -1,0 +1,139 @@
+
+@font-face {
+    font-family: Outfit ;
+    src: url(https://fonts.googleapis.com/css2?family=Outfit);
+}
+
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    max-width: 1440px;
+    
+}
+
+body{
+    font-family: "Outfit", serif;
+   background-color: hsl(212, 45%, 89%);
+   padding: 50px;
+   margin: 100px;
+   overflow: hidden;
+}
+.container{
+    display:flex;
+    position: relative;
+    top: 50;
+    left: 50;
+    align-items: center;
+    
+}
+
+.container-1{
+    background-color: hsl(0, 0%, 100%);
+    border: 30px solid none ;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+img {
+    border: 20px solid none ;
+    border-radius: 10px;
+    max-width: 280px;
+  
+}
+
+.content{
+    
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.heading{
+    font-weight: 700;
+    font-size: 25px;
+}
+.sub-text{
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%)
+}
+.attribution{
+    display: flexbox;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10;
+    padding: 0.5rem;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+   
+}
+
+@media only screen and (max-width: 375px){
+   
+    *{
+        box-sizing: border-box;
+        max-width: 375px;
+    }
+    
+    body{
+        font-family: "Outfit", serif;
+       background-color: hsl(212, 45%, 89%);
+       margin: 0;
+       padding: 0;
+      
+    }
+    .container{
+        padding-top: 45%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .container-1{
+        background-color: hsl(0, 0%, 100%);
+        border: 10px solid none ;
+        border-radius: 15px;
+        padding: 15px;
+    }
+    
+    .image{
+        display:flex;
+        align-items: center;
+    }
+    img {
+        border: 20px solid none ;
+        border-radius: 10px;
+        
+    }
+
+    .content{
+        
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        padding: 10px;
+    }
+    .heading{
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .sub-text{
+        margin-top: 5%;
+        font-size: 15px;
+        font-weight: 400;
+        color: hsl(220, 15%, 55%)
+    }
+
+    .attribution{
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+    }
+}
+
+    
